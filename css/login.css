@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@700&display=swap');
+
+.container{
+    background-color: #022978;
+    display: flex;
+    
+}
+
+.card-frase{
+    background-color: #022978;
+    width: 80%;
+}
+
+.form-login{
+    background-color: #ECF2F7;
+    width: 65%;
+    margin: 2%;
+    border-radius: 5%;
+    align-items: center;
+}
+
+.fonte-bg{
+    font-size: 76px;
+    color: white;
+    font-family: Anton;
+}
+.fonte-bg-1{
+    font-size: 30px;
+    font-family: Bebas Neue;
+    color: white;
+}
+
+.frase-bg{
+    margin-left: 60px;
+}
+
+.ilustracao-login{
+    width: 500px;
+}
+
+.logo-azul{
+    width: 35%;
+}
+
+.logo-login{
+   text-align: center;
+}
+
+.nome-login{
+    font-size: 25px;
+    font-family: League Spartan;
+    text-align: center;
+}
+
+
+.form-aut{
+    text-align: center;
+    width: 100%;
+    height: 50px;
+}
+
+.form-label{
+    font-family: League Spartan;
+    margin-left: 96px;
+}
+
+.form-input{
+    border-radius: 8px;
+    border:1px solid #8B97B2;
+    background-color: #FFFFFF;
+    outline:none;
+    width: 70%;
+    height: 100%;
+}
+
+.bt-login{
+    margin-top: 50px;
+    text-align: center;
+    height: 270px;
+}
+
+.button-login{
+    color: white;
+    background-color:#4778EC;
+    width: 18%;
+    height: 15%;
+    border: none;
+    border-radius: 10px;
+    font-family:League Spartan;
+}
