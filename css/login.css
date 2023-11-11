@@ -90,3 +90,8 @@
     border-radius: 10px;
     font-family:League Spartan;
 }
+
+.button-login:hover {
+    transform: scale(1.1);
+    transition: all 0.5s;
+  } 
