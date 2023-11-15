@@ -5,20 +5,142 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Inativos</title>
     <link rel="stylesheet" type="text/css" href="/css/funcionarios_ativos.css" />
+    <link rel="stylesheet" href="/path/to/web-fonts-with-css/all.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
 </head>
 <body>
-    <div class="container">
-        <header>
-            <p>oi</p>
-        </header>
+    <div class="container"> 
+        <div class="container-aside">
+            <aside>
+                <div class="logo">
+                    <img class="logo-branca" src="/img/logo-branca.png" alt="">
+                </div>
 
-        <aside>
-            <p>oi</p>
-        </aside>
+                <div class="icons-aside">
+                    <div class="menu-icons" id="menu">
+                        <a href="#"><i class="fas fa-home"></i>Início</a>
+                        <a href="#"><i class="fas fa-users"></i>Funcionários</a>
+                        <a href="#"><i class="fas fa-book"></i>Leitor</a>
+                        <a href="#"><i class="fas fa-archive"></i>Acervo</a>
+                        <a href="#"><i class="fas fa-handshake"></i>Empréstimos</a>
+                        <a href="#"><i class="fas fa-user"></i>Minha Conta</a>
+                        <!-- item de menu "Sair" -->
+                        <a href="#" class="logout"><i class="fas fa-sign-out-alt"></i> Sair</a>
+                    </div>
+                </div>
+            </aside>
+        </div>
 
-        <main>
-            <p>oi</p>
-        </main>
+        <div class="container-main">
+            <main>
+                <div class="campo-busca">
+                    <form class="search-container">
+                        <input type="text" id="search-bar" placeholder="Buscar">
+                        <a href="#"><img class="search-icon" src="/img/lupa.png"></a>
+                    </form>
+                </div>
+
+                <div class="funcionarios">
+                    <P class="funcio-atv">Funcionários ativos</P>
+
+                    <div class="opcoes-fun">
+                        <button class="inativos">INATIVOS</button>
+                        <button class="novo">NOVO</button>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <div class="card-funcionarios">
+                        <div class="img-funcionario">
+                            <img class="img-funcio" src="/img/frente.jpg" alt="">
+                        </div>
+
+                        <div class="informacoes">
+                            <p>Anderson Soares</p>
+                            <p> Bibliotecário</p>
+                            <p>
+                                RG: 000000 <br>
+                                CPF: 000.000.000-00 <br>
+                                Contato: (00)00000-000
+                            </p>
+                        </div>
+
+                        <div class="switch__container">
+                            <input id="switch-shadow" class="switch switch--shadow" type="checkbox">
+                            <label for="switch-shadow"></label>
+                        </div>
+                    </div>
+
+                    <div class="card-funcionarios">
+                        <div class="img-funcionario">
+                            <img class="img-funcio" src="/img/frente.jpg" alt="">
+                        </div>
+
+                        <div class="informacoes">
+                            <p>Anderson Soares</p>
+                            <p> Bibliotecário</p>
+                            <p>
+                                RG: 000000 <br>
+                                CPF: 000.000.000-00 <br>
+                                Contato: (00)00000-000
+                            </p>
+                        </div>
+
+                        <div class="switch__container">
+                            <input id="switch-shadow" class="switch switch--shadow" type="checkbox">
+                            <label for="switch-shadow"></label>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <div class="card-funcionarios">
+                        <div class="img-funcionario">
+                            <img class="img-funcio" src="/img/frente.jpg" alt="">
+                        </div>
+
+                        <div class="informacoes">
+                            <p>Anderson Soares</p>
+                            <p> Bibliotecário</p>
+                            <p>
+                                RG: 000000 <br>
+                                CPF: 000.000.000-00 <br>
+                                Contato: (00)00000-000
+                            </p>
+                        </div>
+
+                        <div class="switch__container">
+                            <input id="switch-shadow" class="switch switch--shadow" type="checkbox">
+                            <label for="switch-shadow"></label>
+                        </div>
+                    </div>
+
+                    <div class="card-funcionarios">
+                        <div class="img-funcionario">
+                            <img class="img-funcio" src="/img/frente.jpg" alt="">
+                        </div>
+
+                        <div class="informacoes">
+                            <p>Anderson Soares</p>
+                            <p> Bibliotecário</p>
+                            <p>
+                                RG: 000000 <br>
+                                CPF: 000.000.000-00 <br>
+                                Contato: (00)00000-000
+                            </p>
+                        </div>
+
+                        <div class="switch__container">
+                            <input id="switch-shadow" class="switch switch--shadow" type="checkbox">
+                            <label for="switch-shadow"></label>
+                        </div>
+                    </div>
+                </div>
+
+                    </div>
+                </div>
+            </main>
+        </div>
     </div>
 </body>
 </html>

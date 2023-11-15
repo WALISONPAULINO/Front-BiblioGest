@@ -5,6 +5,7 @@
 *{
     margin: 0;
     padding: 0;
+    overflow: hidden;
 }
 main{
     grid-area: main;
@@ -121,6 +122,7 @@ main{
   } 
 
   /*Responsividade*/
+  /*incompleto*/
 
 @media screen and (max-width:1246px){
     .form-login{
