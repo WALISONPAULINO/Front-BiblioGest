@@ -1,0 +1,9 @@
+.container-tabela{
+    align-items: center;
+    width: 94%;
+}
+
+table{
+    width: 100%;
+    margin-left:48px;
+}

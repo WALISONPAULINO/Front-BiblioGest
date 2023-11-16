@@ -64,10 +64,6 @@ body{
     border-radius: 13px;
     border: none;
     color: white;
-
-    &:focus{
-      color: white; 
-     }
    }
 
   .search-icon{

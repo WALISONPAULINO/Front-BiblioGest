@@ -2,7 +2,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@700&display=swap');
 
-*{
+body{
     margin: 0;
     padding: 0;
     overflow: hidden;
@@ -31,7 +31,6 @@ main{
 .card-frase{
     background-color: #022978;
     width: 100%;
-    margin-top: 50px;
 }
 
 .form-login{
@@ -51,15 +50,29 @@ main{
     font-size: 45px;
     font-family: Bebas Neue;
     color: white;
-    margin-bottom: 47px;
+    margin-bottom: 4px;
 }
 
 .frase-bg{
     margin-left: 60px;
+    margin-bottom: 43px;
 }
 
+.saiba-mais{
+    background-color: #4778EC;
+    border: none;
+    padding: 9px;
+    border-radius: 8px;
+    color: white;
+}
+
+.saiba-mais:hover {
+    transform: scale(1.1);
+    transition: all 0.1s;
+  } 
+
 .ilustracao-login{
-    width: 500px;
+    width: 600px;
 }
 
 .logo-azul{
@@ -118,11 +131,55 @@ main{
 
 .button-login:hover {
     transform: scale(1.1);
-    transition: all 0.5s;
+    transition: all 0.1s;
   } 
 
   /*Responsividade*/
   /*incompleto*/
+
+@media screen and (max-width: 1921px){
+    .form-label{
+        margin-left: 103px;
+    }
+}
+
+@media screen and (max-width:1367px) {
+    .form-label{
+        margin-left: 77px;
+    }
+
+    .ilustracao-login{
+        width: 465px;
+    }
+
+    .fonte-bg{
+        font-size: 90px;
+    }
+    .fonte-bg-1{
+        font-size: 45px;
+    }
+}
+
+@media screen and (max-width:1248px){
+    .fonte-bg{
+        font-size: 70px;
+    }
+    .fonte-bg-1{
+        font-size: 30px;
+    }
+
+    .frase-bg{
+        margin-left: 60px;
+        margin-bottom: 30px;
+        width: 70%;
+        height: 50%;
+        background-color: aqua;
+    }
+}
+
+
+
+
 
 @media screen and (max-width:1246px){
     .form-login{
