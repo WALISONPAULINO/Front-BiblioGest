@@ -2,35 +2,15 @@
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@700&display=swap');
 
-body{
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-}
-main{
-    grid-area: main;
-    background-color: #022978;
-}
 .container{
-    width: 100vw;
-    height: 100vh;
-    display: grid;
-    grid-template-areas: 
-    "main";
-    grid-template-columns: 100%;
-    grid-template-rows: 100%;
-}
-
-.container-bg{
     background-color: #022978;
     display: flex;
-    width: 100%;
-    height: 100%;
+    
 }
 
 .card-frase{
     background-color: #022978;
-    width: 100%;
+    width: 80%;
 }
 
 .form-login{
@@ -42,37 +22,22 @@ main{
 }
 
 .fonte-bg{
-    font-size: 100px;
+    font-size: 76px;
     color: white;
     font-family: Anton;
 }
 .fonte-bg-1{
-    font-size: 45px;
+    font-size: 30px;
     font-family: Bebas Neue;
     color: white;
-    margin-bottom: 4px;
 }
 
 .frase-bg{
     margin-left: 60px;
-    margin-bottom: 43px;
 }
-
-.saiba-mais{
-    background-color: #4778EC;
-    border: none;
-    padding: 9px;
-    border-radius: 8px;
-    color: white;
-}
-
-.saiba-mais:hover {
-    transform: scale(1.1);
-    transition: all 0.1s;
-  } 
 
 .ilustracao-login{
-    width: 600px;
+    width: 500px;
 }
 
 .logo-azul{
@@ -81,15 +46,12 @@ main{
 
 .logo-login{
    text-align: center;
-   margin-top: 20px;
-   margin-bottom: 20px;
 }
 
 .nome-login{
     font-size: 25px;
     font-family: League Spartan;
     text-align: center;
-    margin-bottom: 25px;
 }
 
 
@@ -101,7 +63,7 @@ main{
 
 .form-label{
     font-family: League Spartan;
-    margin-left: 87px;
+    margin-left: 96px;
 }
 
 .form-input{
@@ -114,7 +76,7 @@ main{
 }
 
 .bt-login{
-    margin-top: 90px;
+    margin-top: 50px;
     text-align: center;
     height: 270px;
 }
@@ -131,186 +93,5 @@ main{
 
 .button-login:hover {
     transform: scale(1.1);
-    transition: all 0.1s;
+    transition: all 0.5s;
   } 
-
-  /*Responsividade*/
-  /*incompleto*/
-
-@media screen and (max-width: 1921px){
-    .form-label{
-        margin-left: 103px;
-    }
-}
-
-@media screen and (max-width:1367px) {
-    .form-label{
-        margin-left: 77px;
-    }
-
-    .ilustracao-login{
-        width: 465px;
-    }
-
-    .fonte-bg{
-        font-size: 90px;
-    }
-    .fonte-bg-1{
-        font-size: 45px;
-    }
-}
-
-@media screen and (max-width:1248px){
-    .fonte-bg{
-        font-size: 70px;
-    }
-    .fonte-bg-1{
-        font-size: 30px;
-    }
-
-    .frase-bg{
-        margin-left: 60px;
-        margin-bottom: 30px;
-        width: 70%;
-        height: 50%;
-        background-color: aqua;
-    }
-}
-
-
-
-
-
-@media screen and (max-width:1246px){
-    .form-login{
-        margin-right: 50px;
-        width: 100%;
-    }
-    .form-label{
-        margin-left: 70px;
-    }
-
-    .fonte-bg{
-        font-size: 90px;
-    }
-    .fonte-bg-1{
-        font-size: 40px;
-        margin-bottom: 47px;
-    }
-    
-    .ilustracao-login{
-        width: 410px;
-    }
-
-    .container-bg{
-        height: 650px;
-    }
-
-    .bt-login{
-        height: 190px;
-    }
-
-    .img-login{
-      height: 250px;
-    }
-
-    .button-login{
-        width: 20%;
-        height: 20%;
-    }
-}
-@media screen and (max-width:1243px){
-    .form-label{
-        margin-left: 70px;
-    }
-}
-
-@media screen and (max-width:1092px){
-    .form-label{
-        margin-left: 60px;
-    }
-}
-
-@media screen and (max-width:914px){
-    .form-label{
-        margin-left: 51px;
-    }
-}
-
-@media screen {
-
-    .container{
-        background-color: #ECF2F7;
-    }
-}
-
-@media screen and (max-width:863px){
-
-    .container-bg{
-        background-color: #ECF2F7;
-    }
-    .card-frase{
-        opacity: 0; /* Esconde no desktop. */
-        height: 0;
-    }
-
-    .container{
-        align-items: center;
-        justify-content: center;
-    }
-
-    .form-login{
-        position: absolute;
-        width: 100%;
-
-    }
-
-    .form-label{
-        margin-left: 130px;
-    }
-}
-
-@media screen and (max-width:791px){
-    .form-label{
-        margin-left: 120px;
-    }
-}
-
-@media screen and (max-width:724px){
-    .form-label{
-        margin-left: 110px;
-    }
-}
-
-@media screen and (max-width:770px){
-    .form-label{
-        margin-left: 100px;
-    }
-}
-
-@media screen and (max-width:592px){
-    .form-label{
-        margin-left: 90px;
-    }
-
-    .form-login{
-    height: 100%;
-    border-radius: 0;
-    }
-
-    body{
-        background-color: #ECF2F7;;
-    }
-}
-
-@media screen and (max-width:592px){
-    .form-label{
-        margin-left: 80px;
-    }
-}
-
-@media screen and (max-width:483px){
-    .form-label{
-        margin-left: 73px;
-    }
-}

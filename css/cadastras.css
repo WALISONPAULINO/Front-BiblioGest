@@ -1,0 +1,104 @@
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #ECF2F7;
+}
+
+
+
+.container {
+    text-align: center;
+
+}
+
+h1 {
+    color:#022978;
+    margin-bottom: 50px;
+}
+
+form {
+    display: inline-block;
+    text-align: left;
+    
+}
+
+label {
+    display: block;
+    margin-bottom: 2px;
+}
+
+input {
+    margin-bottom: 10px;
+    border-radius: 8px; 
+    padding: 10px; 
+    box-sizing: border-box; 
+    width: calc(50% - 5px); /* 50% da largura do container com algum espaço entre eles */
+    display: inline-block;
+    margin-right: 10px; 
+    outline: none;
+    border: 1px solid #ccc; /* Define a cor cinza para a borda */
+}
+
+
+
+
+/* Configuração do botão */
+
+
+.btn-container {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+button {
+    padding: 10px 20px; 
+    background-color: #3498db;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+     
+}
+
+
+
+input#nome { 
+    width: 100%; 
+    height: 50px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    
+}
+
+input#email{
+    width: 100%;
+    height: 50px;
+    
+}
+
+input#imagem{
+    width: 200%;
+    height: 60%;
+    border-radius: 10px;
+}
+
+
+.input-group {
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+input#cpf, input#rg {
+    width: 300px;
+    margin-bottom: 60px;
+}
+
+
+input#cargo, input#telefone{
+    width: 300px;
+    margin-bottom: 60px;
+}
