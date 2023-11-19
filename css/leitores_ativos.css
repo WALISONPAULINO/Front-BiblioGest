@@ -97,10 +97,10 @@ table{
 
 .funcionarios{
     width: 100%;
-    margin-left: 110px;
     margin-top: 15px;
     display: flex;
     align-items: center;
+    gap: 55px;
 }
 
 .opcoes-fun{
@@ -108,5 +108,5 @@ table{
     justify-content: flex-end;
     width: 77%;
     gap: 20px;
-
 }
+
