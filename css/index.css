@@ -86,7 +86,7 @@ svg{
     border-radius: 8px;
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: space-between;
 }
 
 .biblio-nome{
@@ -95,8 +95,13 @@ svg{
     font-family: League Spartan ;
 }
 
+.biblioteca{
+    margin-left: 100px;
+}
 
-
+.logo-livro{
+    background-color: aquamarine;
+}
 .cards{
     height: 300px;
     margin-left: 50px;
