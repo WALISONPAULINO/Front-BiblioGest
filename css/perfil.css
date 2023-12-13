@@ -1,0 +1,155 @@
+@import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@700&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+  }
+
+.container{
+    background-color: #ECF2F7;
+        width: 100vw;
+        height: 100vh;
+        display: grid;
+        grid-template-areas: 
+        "main";
+        grid-template-columns: auto;
+        grid-template-rows: auto;
+}
+
+.container-perfil{
+    display: flex;
+    height: 6%;
+    margin-top: 40px;
+    margin-right: 15px;
+    margin-left: 18px;
+    margin-bottom: 30px;
+}
+
+.nome-perfil{
+    width: 90%;
+    font-size: 20px;
+    font-family: League Spartan;
+    color: #022978;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 155px;
+}
+
+.nome-editar{
+    background-color: #022978;
+    width: 100px;
+    padding: 5px;
+    height: 80%;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: League Spartan;
+    color: white;
+}
+
+.icon{
+    background-color: #4778EC;
+    width: 50px;
+    height: 100%;
+    border-radius: 100%;
+    margin-left: 9px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.icon-svg{
+    width: 50%;
+    margin-top: 3px;
+}
+svg{
+    color: white;
+}
+
+.container-img{
+    text-align: center;
+}
+
+.img-frente{
+    width: 120px;
+    height: 120px;
+    border-radius: 100%;
+}
+
+.nome{
+    font-size: 14px;
+    font-family: League Spartan;
+    color: black;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.cargo{
+    font-size: 17px;
+    font-family: League Spartan;
+    color: black;
+}
+
+.container-info{
+    display: flex;
+    justify-content: center;
+    margin-top: 25px;
+}
+.info{
+    width: 50%;
+}
+.div-info{
+    background-color: #FFFFFF;
+    border-radius: 8px;
+    height: 50px;
+    display: flex;
+    margin-bottom: 25px;
+}
+
+.container-svg{
+    width: 5%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 15px;
+    margin-left: 15px;
+}
+
+.container-svg-1{
+    width: 9%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 15px;
+    margin-left: 15px;
+}
+
+.container-dados{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.svg-icon{
+    color: black;
+}
+
+.categoria{
+    font-size: 13px;
+    font-family: League Spartan;
+    margin-bottom: 4px;
+}
+
+.container-info-1{
+    display: flex;
+    gap: 13px;
+}
+
+.div-info-1{
+    width: 49%;
+    background-color: #FFFFFF;
+    border-radius: 8px;
+    height: 50px;
+    display: flex;
+}
