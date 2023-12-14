@@ -26,35 +26,40 @@
 }
 
 .nome-perfil{
-    width: 90%;
+    width: 91%;
     font-size: 20px;
     font-family: League Spartan;
     color: #022978;
     display: flex;
     align-items: center;
     justify-content: center;
-    margin-left: 155px;
+    margin-left: 87px;
 }
 
 .nome-editar{
     background-color: #022978;
-    width: 100px;
-    padding: 5px;
-    height: 80%;
+    width: 130px;
+    padding: 9px;
+    height: 75%;
     border-radius: 8px;
     display: flex;
     align-items: center;
     justify-content: center;
     font-family: League Spartan;
     color: white;
+    gap: 10px;
+}
+
+.nome-editar:hover{
+    background-color: #1946a2;
 }
 
 .icon{
     background-color: #4778EC;
-    width: 50px;
+    width: 55px;
     height: 100%;
     border-radius: 100%;
-    margin-left: 9px;
+    margin-left: 20px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -69,6 +74,7 @@ svg{
 
 .container-img{
     text-align: center;
+    margin-bottom: 70px;
 }
 
 .img-frente{
@@ -81,7 +87,7 @@ svg{
     font-size: 14px;
     font-family: League Spartan;
     color: black;
-    margin-top: 10px;
+    margin-top: 25px;
     margin-bottom: 10px;
 }
 
@@ -153,3 +159,114 @@ svg{
     height: 50px;
     display: flex;
 }
+
+.div-bt-editar{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 40px;
+    margin-top: 90px;
+}
+
+
+@media screen and (max-width:1315px){
+
+    .icon{
+        width: 50px;
+    }
+}
+
+@media screen and (max-width:1257px){
+    
+    .icon{
+        width: 55px;
+    }
+}
+
+@media screen and (max-width:1001px){
+    
+    .info{
+        width: 70%;
+    }
+}
+
+@media screen and (max-width:773px){
+    
+    .icon{
+        width: 60px;
+    }
+}
+
+@media screen and (max-width:611px){
+    
+    .icon{
+        width: 65px;
+    }
+}
+
+@media screen and (max-width:497px){
+    
+    .icon{
+        width: 70px;
+    }
+
+     
+    .info{
+        width: 75%;
+    }
+}
+
+@media screen and (max-width:419px){
+    
+    .icon{
+        width: 75px;
+    }
+}
+
+@media screen and (max-width:421px){
+    .dados{
+        font-size: 13px;
+    }
+
+    .icon{
+        width: 80px;
+    }
+}
+
+@media screen and (max-width:384px){
+    .icon{
+        width: 50px;
+        height: 50px;
+    }
+
+    .nome-perfil{
+        width: 80%;
+        margin-left: 87px;
+    }
+}
+
+@media screen and (max-width:381px){
+    .icon{
+        width: 50px;
+        height: 50px;
+    }
+
+    .nome-perfil{
+        width: 60%;
+        margin-left: 87px;
+    }
+}
+
+@media screen and (max-width:375px){
+   .div-bt-editar{
+       margin-top: 60px;
+   }
+
+   .container-img{
+       margin-bottom: 20px;
+   }
+}
+
+
+
+
