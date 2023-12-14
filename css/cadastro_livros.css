@@ -1,0 +1,48 @@
+@media screen and (max-width:685px){
+    
+    form{
+        width:80%;
+        height: 80%;
+        background-color: brown;
+    }
+    
+    .form-emprego{
+        background-color: aqua;
+        display: block;
+        width: 100%;
+        margin-bottom: 2px;
+    }
+
+    .form-leitor{
+        background-color: blue;
+        height: 95%;
+        margin-top: 0;
+    }
+ 
+    .input-emprego{
+        width: 200%;
+        height: 43px;
+    }
+
+    .nome-input{
+        width: 100%;
+    }
+
+    .cadastro{
+        margin-top: 30px;
+    }
+
+    .profissao{
+        width: 50%;
+        background-color: rgb(21, 255, 0);
+        margin-top: 5px;
+    }
+
+    .button{
+        margin-top: 0;
+    }
+
+    .div-input{
+        margin-top: 0;
+    }
+}
