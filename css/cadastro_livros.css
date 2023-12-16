@@ -3,18 +3,15 @@
     form{
         width:80%;
         height: 80%;
-        background-color: brown;
     }
     
     .form-emprego{
-        background-color: aqua;
         display: block;
         width: 100%;
         margin-bottom: 2px;
     }
 
     .form-leitor{
-        background-color: blue;
         height: 95%;
         margin-top: 0;
     }
@@ -34,15 +31,54 @@
 
     .profissao{
         width: 50%;
-        background-color: rgb(21, 255, 0);
         margin-top: 5px;
     }
 
     .button{
-        margin-top: 0;
+        margin-top: 20px;
     }
 
     .div-input{
         margin-top: 0;
+    }
+
+    .container{
+        height: 1000px;
+    }
+}
+
+@media screen and (max-width: 592px){
+    .form-leitor{
+        width: 500px;
+    }
+}
+
+@media screen and (max-width: 482px){
+    .form-leitor{
+        width: 400px;
+    }
+}
+
+@media screen and (max-width: 381px){
+    .form-leitor{
+        width: 350px;
+    }
+
+    .profissao{
+        width: 100%;
+    }
+
+    .input-emprego{
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 336px){
+    .form-leitor{
+        width: 320px;
+    }
+
+    .container{
+        height: 1020px;
     }
 }

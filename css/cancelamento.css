@@ -1,7 +1,54 @@
 .nome-input{
     height: 200px;
+    padding-top: 0;
 }
 
 .div-input{
     margin-bottom: 250px;
+}
+
+@media screen and (max-width: 697px){
+    .nome-input{
+        width: 100%;
+    }
+
+    .form-leitor{
+        width: 500px;
+    }
+}
+
+@media screen and (max-width: 683px){
+
+    .form-leitor{
+        width: 350px;
+    }
+
+    form{
+        width: 100%;
+    }
+}
+
+
+@media screen and (max-width: 483px){
+
+    .form-leitor{
+        width: 280px;
+    }
+
+    .nome-input{
+        width: 95%;
+    }
+
+}
+
+@media screen and (max-width: 345px){
+
+    .form-leitor{
+        width: 280px;
+    }
+
+    .nome-input{
+        width: 90%;
+    }
+
 }

@@ -1,3 +1,17 @@
 .bt-cadastrar{
     width: 35%;
 }
+
+.nome-input{
+    margin-top: 5px;
+}
+
+@media screen and (max-width:685px){
+    .div-input{
+        width: 96%;
+    }
+
+    .form-leitor{
+        width: 500px;
+    }
+}

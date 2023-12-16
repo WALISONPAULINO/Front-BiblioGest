@@ -28,3 +28,10 @@ form{
         font-size: 15px;
     }
 }
+
+@media screen and (max-width:376px){
+    .form-leitor{
+        width: 300px;
+        margin-left: 0;
+    }
+}

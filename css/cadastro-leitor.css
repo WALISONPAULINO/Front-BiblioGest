@@ -145,9 +145,35 @@ label{
     }
 }
 
+@media screen and (max-width:567px){
+    .form-leitor{
+       width: 100%;
+    }
+
+    .profissao{
+        width: 50%;
+    }
+
+    .form-emprego-1{
+        gap: 10px;
+    }
+
+    .input-emprego{
+        width: 100%;
+    }
+
+    .nome-input{
+        width: 100%;
+    }
+
+    .container{
+        height: 700px;
+    }
+}
+
 @media screen and (max-width:559px){
     .form-leitor{
-        width: 115%;
+        width: 300px;
     }
 
     .form-emprego, .form-emprego-1{
@@ -166,16 +192,24 @@ label{
     }
 
     .input-emprego{
-        width: 100%;
+        width: 107%;
         height: 40px;
     }
 
     .input-emprego-1{
-        width: 100%;
+        width: 107%;
         height: 40px;
     }
 
+    .nasci{
+        width: 103%;
+        height: 40px;
+    }
     .cadastro{
         margin-top: 45px;
+    }
+
+    .container{
+        height: 900px;
     }
 }

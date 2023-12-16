@@ -255,6 +255,10 @@ svg{
         width: 60%;
         margin-left: 87px;
     }
+
+    .container{
+        height: 780px;
+       }
 }
 
 @media screen and (max-width:375px){
@@ -265,6 +269,7 @@ svg{
    .container-img{
        margin-bottom: 20px;
    }
+   
 }
 
 
