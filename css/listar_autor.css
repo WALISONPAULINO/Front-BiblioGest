@@ -10,14 +10,24 @@
 
 .bt-editar-ex{
     background-color: #DA0502;
-    margin-top: 5px;
+    width: 50%;
+    font-size: 12px;
+}
+
+.bt-editar{
+    width: 50%;
+    font-size: 12px;
 }
 
 .bt-editar-ex:hover{
     background-color: #e33e3b ;
 }
 .linha{
-    width: 20%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
 }
 
 .autor{
@@ -52,4 +62,17 @@
 
 .button-novo:hover{
     background-color: #1946a2;
+}
+
+.titulo-autor{
+    width: 80%;
+    background-color: #4778EC;
+    color: white;
+    font-family: League Spartan;
+    font-size: 12px;
+    padding: 9px;
+}
+
+.svg-icon{
+    margin-right: 2px;
 }
