@@ -14,4 +14,77 @@
     .form-leitor{
         width: 500px;
     }
+
+    .bt-cadastrar{
+        width: 50%;
+    }
 }
+
+
+@media screen and (max-width:596px){
+
+    .container{
+        height: 640px;
+    }
+
+    .profissao{
+        width: 100%;
+    }
+
+    .nome-input{
+        width: 100%;
+    }
+
+    .div-input{
+        width: 100%;
+    }
+}
+
+@media screen and (max-width:559px){
+    .nome-input{
+        height: 42px;
+    }
+}
+
+@media screen and (max-width:547px){
+   .form-leitor{
+        width: 390px;
+   }
+
+   
+   .bt-cadastrar{
+         width: 60%;
+    }
+}
+
+@media screen and (max-width:441px){
+    .form-leitor{
+         width: 320px;
+    }
+
+    .container{
+        height: 700px;
+    }
+
+    .bt-cadastrar{
+        width: 60%;
+    }
+ }
+
+ @media screen and (max-width:431px){
+    .container{
+        height: 940px;
+    }
+ }
+
+ @media screen and (max-width:415px){
+    .container{
+        height: 900px;
+    }
+ }
+
+ @media screen and (max-width:376px){
+    .container{
+        height: 670px;
+    }
+ }
