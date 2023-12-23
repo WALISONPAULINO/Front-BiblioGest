@@ -105,6 +105,7 @@ main {
     font-size: 90px;
     color: white;
     font-family: Anton;
+    margin-top: 30px;
 }
 .fonte-bg-1{
     font-size: 30px;
@@ -114,10 +115,11 @@ main {
 
 .frase-bg{
     margin-left: 60px;
+    width: 80%;
 }
 
 .ilustracao-login{
-    width: 400px;
+    width: 65%;
     margin-left: 40px;
 }
 
@@ -150,6 +152,11 @@ main {
 
 .img-login{
     margin-top: 20px;
+    align-items: center;
+    display: flex;
+    justify-content: end;
+    width: 90%;
+    height: 35%;
 }
 
 @media  screen and (max-width:1319px) {
